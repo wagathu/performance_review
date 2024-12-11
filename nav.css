@@ -1,0 +1,137 @@
+ul.nav-pills {
+    display: flex !important;
+    justify-content: center !important;
+    font-size: 18px; /* Adjust font size */
+    font-weight: bold; /* Adjust font weight */
+    margin-top: 0px;
+    background: #27AAE1;
+    width: 100%; 
+    right: 0;
+    left: 0;/* Background color for the tab */
+}
+
+.nav-pills {
+    --bs-nav-pills-border-radius: var(--bs-border-radius);
+    --bs-nav-pills-link-active-color: black;
+    --bs-nav-pills-link-active-bg: #fff;
+}
+
+.dropdown-menu {
+    --bs-dropdown-zindex: 1000;
+    --bs-dropdown-min-width: 10rem;
+    --bs-dropdown-padding-x: 0;
+    --bs-dropdown-padding-y: .5rem;
+    --bs-dropdown-spacer: .125rem;
+    --bs-dropdown-font-size: 1rem;
+    --bs-dropdown-color: var(--bs-body-color);
+    --bs-dropdown-bg: var(--bs-body-bg);
+    --bs-dropdown-border-color: var(--bs-border-color-translucent);
+    --bs-dropdown-border-radius: var(--bs-border-radius);
+    --bs-dropdown-border-width: var(--bs-border-width);
+    --bs-dropdown-inner-border-radius: calc(var(--bs-border-radius) - var(--bs-border-width));
+    --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
+    --bs-dropdown-divider-margin-y: .5rem;
+    --bs-dropdown-box-shadow: 0px 1px 2px RGBA(var(--bslib-box-shadow-color-rgb), 0.1),0px 3px 7px RGBA(var(--bslib-box-shadow-color-rgb), 0.1),0px 12px 30px RGBA(var(--bslib-box-shadow-color-rgb), 0.08);
+    --bs-dropdown-link-color: var(--bs-body-color);
+    --bs-dropdown-link-hover-color: var(--bs-body-color);
+    --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
+    --bs-dropdown-link-active-color: #fff;
+    --bs-dropdown-link-active-bg: #27AAE1;
+    --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
+    --bs-dropdown-item-padding-x: 1rem;
+    --bs-dropdown-item-padding-y: .25rem;
+    --bs-dropdown-header-color: #27AAE1;
+    --bs-dropdown-header-padding-x: 1rem;
+    --bs-dropdown-header-padding-y: .5rem;
+    position: absolute;
+    z-index: var(--bs-dropdown-zindex);
+    display: none;
+    min-width: var(--bs-dropdown-min-width);
+    padding: var(--bs-dropdown-padding-y) var(--bs-dropdown-padding-x);
+    margin: 0;
+    font-size: var(--bs-dropdown-font-size);
+    color: var(--bs-dropdown-color);
+    text-align: left;
+    list-style: none;
+    background-color: var(--bs-dropdown-bg);
+    background-clip: padding-box;
+    border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);
+    border-radius: var(--bs-dropdown-border-radius);
+}
+
+
+.nav-pills > li > a {
+    color: #fff; /* Default text color for tabs */
+}
+
+.nav-pills > li.active > a {
+    background-color: #fff !important; /* Background color for active tab */
+    color: black !important; /* Text color for active tab */
+}
+
+/* Change text color on hover */
+.nav-pills > li > a:hover {
+    color: #333; /* Change color on hover */
+}
+a {
+    cursor: pointer; /* Change cursor style for links */
+}
+
+/* Styling the tabset by its ID */
+#pills_tabset {
+    display: block !important;
+    justify-content: initial !important;
+    font-size: initial;
+    font-weight: normal;
+    color: inherit;
+    margin-top: 0;
+    background: #fff; /* Background color for the tabset */
+}
+
+/* Targeting the list items and their links */
+#pills_tabset > li > a {
+    color: #333; /* Default text color for tabs */
+}
+
+/* Optional: Adding hover state for the links */
+#pills_tabset > li > a:hover {
+    color: #333; /* Change to your desired hover color */
+}
+
+/* Active tab styling */
+#pills_tabset > li.active > a {
+    background-color: #27AAE1 !important; /* Active tab background */
+    color: #fff !important; /* Active tab text color */
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+  background-color: white; /* Background color for the dropdown menu */
+  color: black; /* Default text color for dropdown items */
+}
+
+/* Style the items in the dropdown menu */
+.dropdown-menu > li > a {
+  color: black; /* Default text color for dropdown items */
+  padding: 10px 15px; /* Add padding for better click area */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Style the items when hovered */
+.dropdown-menu > li > a:hover {
+  background-color: #27AAE1 !important; /* Background color on hover */
+  color: white !important; /* Text color on hover */
+}
+
+/* Style the selected item */
+.dropdown-menu > li.active > a,
+.dropdown-menu > li.active:hover > a {
+  background-color: #27AAE1 !important; /* Background color for selected item */
+  color: white !important; /* Text color for selected item */
+}
+
+/* Adjust the toggle button if needed */
+a[data-toggle="dropdown"] {
+  color: black; /* Toggle button text color */
+}
+

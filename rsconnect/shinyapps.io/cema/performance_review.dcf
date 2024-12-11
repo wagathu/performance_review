@@ -1,0 +1,12 @@
+name: performance_review
+title: performance_review
+username: cema
+account: cema
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13538744
+bundleId: 9483414
+url: https://cema.shinyapps.io/performance_review/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

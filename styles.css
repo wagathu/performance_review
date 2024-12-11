@@ -1,0 +1,183 @@
+
+.irs--shiny .irs-grid-text {
+    bottom: 5px;
+    color: #000;
+}
+.irs--shiny .irs-bar {
+    top: 32px;
+    height: 1px;
+    border-top: 1px solid #27AAE1;
+    border-bottom: 1px solid #27AAE1;
+    background: #27AEE1;
+    cursor: s-resize;
+    z-index: 2;
+}
+
+.irs--shiny .irs-handle {
+    top: 17px;
+    width: 19px;
+    height: 19px;
+    border: none;
+    background-color: #27AEE1;
+    box-shadow: none;
+    border-radius: 19px;
+    z-index: 2;
+}
+
+.irs--shiny .irs-shadow {
+    top: 38px;
+    height: 2px;
+    background: #27AEE1;
+    border-radius: 5px;
+}
+
+.irs--shiny .irs-line {
+    top: 32px;
+    height: 1px;
+    background: none;
+    background-color: #000;
+    border: none;
+    border-radius: 1px;
+    overflow: visible;
+}
+
+.irs--shiny .irs-from, .irs--shiny .irs-to, .irs--shiny .irs-single {
+    color: #ffffff;
+    text-shadow: none;
+    padding: 1px 3px;
+    background-color: #27AEE1;
+    border-radius: 3px;
+    font-size: 11px;
+    line-height: 1.333;
+}
+
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: #fff;
+    border-color: #27AAE1;
+    color: black;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #fff;
+}
+
+
+#owner {
+      text-align: left;
+    }
+
+#owner .btn-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+#owner .btn-info {
+    background-color: white;
+    color: black;
+    border-color: white; /* Set inner button border color to match background */
+  }
+
+#owner .active.btn-info,
+#owner .btn-info:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+    outline: none; /* Remove the outline on focus/active state */
+    box-shadow: none; /* Remove any box shadow on focus/active state */
+  }
+
+  /* Remove inner button borders */
+#owner .btn-group .btn {
+    border: none;
+    margin-bottom: 5px; /* Add some margin to space out the buttons if needed */
+  }
+
+/* Define a CSS class for the panel */
+#intro, #tableIntro {
+  color: black;
+  text-align: left;
+  margin: 10px auto; /* Added margin to ensure space around */
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  border-radius: 0px;
+  max-width: 1900px; /* Adjust width as needed */
+  position: relative; /* Ensures the shadow is visible if other elements overlap */
+  z-index: 1; /* Makes sure the element is on top if necessary */
+}
+
+#intro3 {
+  color: black;
+  margin: 20px auto; /* Added margin to ensure space around */
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  border-radius: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative; /* Ensures the shadow is visible if other elements overlap */
+  z-index: 1; /* Makes sure the element is on top if necessary */
+}
+
+
+#intro2 {
+  color: black;
+  text-align: left;
+  margin: 5px auto; /* Added margin to ensure space around */
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  border-radius: 0px;
+  max-width: 1900px; /* Adjust width as needed */
+  position: relative; /* Ensures the shadow is visible if other elements overlap */
+  z-index: 1; /* Makes sure the element is on top if necessary */
+}
+
+
+/* For the login tab */
+
+/* Style the entire login panel */
+#login-panel {
+  background-color: white; /* Set background color to white */
+  border: 0px solid #3daae8; /* Set border color to #3daae8 */
+  border-radius: 0px; /* Optional: Rounded corners for the panel */
+  padding: 20px; /* Optional: Padding inside the panel */
+}
+
+/* Style the login button */
+#login-panel .btn-primary {
+  background-color: #3daae8; /* Background color of the login button */
+  border: 0px solid #3daae8; /* Border color of the login button */
+  color: white; /* Text color of the login button */
+}
+
+/* Style the input fields */
+#login-panel .form-control {
+  border: 1px solid #3daae8; /* Border color of the input fields */
+  border-radius: 4px; /* Optional: Rounded corners for input fields */
+}
+
+/* Style the well class to have a white background */
+.well {
+  background-color: white !important; /* Set background color to white */
+  border: 1px solid #3daae8; /* Optional: Set border color to #3daae8 */
+  border-radius: 8px; /* Optional: Rounded corners for the well */
+  padding: 20px; /* Optional: Padding inside the well */
+}
+
+.text-box {
+  padding: 15px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.sidebar-menu > li {
+white-space: normal;
+}

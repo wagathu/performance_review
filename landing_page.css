@@ -1,0 +1,53 @@
+/* Center content vertically and horizontally without fixed height */
+#welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* At least full viewport height */
+  background-color: white; /* Change to your desired background color */
+  padding: 20px; /* Optional padding for breathing room */
+}
+
+/* Style the title */
+#header h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the description */
+#header p {
+  font-size: 15px;
+  color: black;
+  text-align: justify;
+  max-width: 1000px;
+}
+
+
+ /* Style the 'Get Started' button */
+/* Style the 'Get Started' button */
+.welcome-button {
+  background-color: #27AAE1;
+  color: white;
+  padding: 15px 30px;
+  font-size: 14px;
+  font-weight: bold; /* Make the text bold */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  margin-top: 20px;
+  margin-left: 400px;
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.welcome-button:hover {
+  background-color: #fa7617; /* White background on hover */
+  color: white;            /* Black text color on hover */
+}
+
+
