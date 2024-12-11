@@ -935,7 +935,6 @@
       "RemoteUsername": "jbkunst",
       "RemoteRepo": "highcharter",
       "RemoteRef": "main",
-      "RemoteSha": "HEAD",
       "description": {
         "Package": "highcharter",
         "Type": "Package",
