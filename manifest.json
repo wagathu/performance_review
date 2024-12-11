@@ -2266,7 +2266,7 @@
       "Source": "github",
       "RemoteUsername": "JohnCoene",
       "RemoteRepo": "typedjs",
-      "RemoteRef": "main",
+      "RemoteRef": "master",
       "RemoteSha": "HEAD",
       "description": {
         "Package": "typedjs",
