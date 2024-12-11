@@ -2266,7 +2266,6 @@
       "RemoteUsername": "JohnCoene",
       "RemoteRepo": "typedjs",
       "RemoteRef": "master",
-      "RemoteSha": "HEAD",
       "description": {
         "Package": "typedjs",
         "Title": "'Typed.js' for 'Shiny' to Animate Text",
@@ -2358,7 +2357,6 @@
       "RemoteUsername": "JohnCoene",
       "RemoteRepo": "waiter",
       "RemoteRef": "main",
-      "RemoteSha": "HEAD",
       "description": {
         "Package": "waiter",
         "Title": "Loading Screen for 'Shiny'",
